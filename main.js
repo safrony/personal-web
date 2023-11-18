@@ -4,6 +4,8 @@ import confetti from "canvas-confetti";
 const typed = new Typed('#element', {
   strings: ['Developer', 'Full Stack', 'Engineer'],
   typeSpeed: 50,
+  loop: true,
+  loopCount: Infinity,
 });
 
 const appreciateBtn = document.getElementById("appreciate");
