@@ -2,8 +2,8 @@ import Typed from "typed.js";
 import confetti from "canvas-confetti";
 
 const typed = new Typed('#element', {
-  strings: [' Developer', ' Full Stack', 'n Engineer'],
-  typeSpeed: 50,
+  strings: ['&nbsp;Developer', '&nbsp;Full Stack', 'n Engineer'],
+  typeSpeed: 75,
   loop: true,
   loopCount: Infinity,
 });
